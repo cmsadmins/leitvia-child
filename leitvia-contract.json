@@ -1,0 +1,31 @@
+{
+	"$comment": "Adds the patterns of this child theme to the contract of Leitvia (extends); roles, pairs, rules and the patterns of Leitvia come from the parent theme. Every file in patterns/ needs an entry here with the title and description of its header. A preset in theme.json needs a role in the contract of Leitvia first, see readme.txt.",
+	"extends": "leitvia",
+	"patterns": [
+		{
+			"slug": "leitvia-child/content-starter",
+			"title": "Starter section",
+			"description": "Example pattern of the child theme with an eyebrow, a heading and a short text in the reading width. Copy it to start a pattern of your own.",
+			"area": "content",
+			"useWhen": "As a template for the first pattern of the child theme; replace its text before it reaches a page.",
+			"composition": {
+				"tone": "surface",
+				"density": "regular",
+				"layout": "centered",
+				"weight": "light",
+				"role": "context",
+				"width": "reading"
+			},
+			"images": [],
+			"docs": {
+				"avoidWhen": "The page needs a real section; this one only shows the shape of a child theme pattern.",
+				"a11y": "One h2 below the heading of the page, text in ink-muted on surface.",
+				"contentLength": {
+					"heading": [ 30, 70 ],
+					"text": [ 120, 260 ]
+				},
+				"replacedBy": null
+			}
+		}
+	]
+}
