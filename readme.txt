@@ -6,7 +6,7 @@ Requires PHP: 8.2
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, one-column, block-patterns, full-site-editing, style-variations, accessibility-ready, translation-ready
+Tags: blog, one-column, block-patterns, style-variations, accessibility-ready, translation-ready
 
 Starter child theme for Leitvia, the place for patterns and templates written as files.
 
@@ -17,6 +17,8 @@ Leitvia Child is the official starter child theme of Leitvia for developers, age
 The child theme inherits everything from Leitvia: design tokens, style variations, templates, template parts and patterns. It ships no CSS of its own and no presets; its functions.php only loads the translations. patterns/content-starter.php is an example to copy.
 
 Requires the theme Leitvia. Leitvia Studio is optional; with it the agents and the Lab know the patterns of the child theme as well.
+
+Leitvia supports the standards WordPress sets for AI agents and will keep supporting them: the skills of WordPress/agent-skills (https://github.com/WordPress/agent-skills), the Abilities API and the MCP Adapter. Blocks of your own do not belong in this theme: build them as a plugin from Leitvia Block Starter (https://github.com/cmsadmins/leitvia-block-starter), so content keeps them after a theme switch. The developer guide is at https://leitvia.com/docs/developers/.
 
 == Rules ==
 
