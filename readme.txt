@@ -3,7 +3,7 @@ Contributors: contexlabs
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, block-patterns, style-variations, accessibility-ready, translation-ready
@@ -42,6 +42,9 @@ The rules of Leitvia apply to every file of the child theme:
 WordPress keeps the global styles and the templates and template parts edited in the Site Editor per theme. With Leitvia Studio active, a switch from Leitvia to Leitvia Child, or back, copies them to the new theme when it has none of its own yet: global styles with the active token set, edited templates and edited template parts. The originals stay, so switching back finds them unchanged, and nothing the new theme already has is overwritten. Navigation menus belong to no theme and stay as they are. Without Leitvia Studio, WordPress starts the new theme with the files of the themes only.
 
 == Changelog ==
+
+= 1.0.1 =
+* The readme names the block starter for blocks of your own and links the developer guide.
 
 = 1.0.0 =
 * First release: child theme of Leitvia with an example pattern and a contract that extends the contract of Leitvia.
