@@ -3,10 +3,10 @@ Contributors: contexlabs
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: blog, one-column, block-patterns, style-variations, accessibility-ready, translation-ready
+Tags: blog, one-column, block-patterns, style-variations, translation-ready
 
 Starter child theme for Leitvia, the place for patterns and templates written as files.
 
@@ -43,6 +43,9 @@ The rules of Leitvia apply to every file of the child theme:
 WordPress keeps the global styles and the templates and template parts edited in the Site Editor per theme. With Leitvia Studio active, a switch from Leitvia to Leitvia Child, or back, copies them to the new theme when it has none of its own yet: global styles with the active token set, edited templates and edited template parts. The originals stay, so switching back finds them unchanged, and nothing the new theme already has is overwritten. Navigation menus belong to no theme and stay as they are. Without Leitvia Studio, WordPress starts the new theme with the files of the themes only.
 
 == Changelog ==
+
+= 1.0.3 =
+* As in Leitvia 1.2.48: the tag accessibility-ready is removed until the accessibility review of the directory.
 
 = 1.0.2 =
 * As in Leitvia 1.2.47: the readme has an Installation section, the theme ships languages/leitvia-child.pot for translators, and the license is declared as GPL-2.0-or-later.
