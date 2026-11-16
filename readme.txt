@@ -3,8 +3,8 @@ Contributors: contexlabs
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.1
-License: GNU General Public License v2 or later
+Stable tag: 1.0.2
+License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, block-patterns, style-variations, accessibility-ready, translation-ready
 
@@ -31,17 +31,21 @@ The rules of Leitvia apply to every file of the child theme:
 * Every pattern has an entry in leitvia-contract.json of this theme, with title and description word for word as in its header and its composition (tone, density, layout, weight, role, width). This file says "extends": "leitvia": Leitvia Studio adds the entries to the contract of Leitvia instead of replacing it. A pattern without an entry counts as unknown in the composition score of a page.
 * In the Leitvia monorepo, npm run lint checks the patterns of the child theme with the same rules as those of Leitvia.
 
-== Activate ==
+== Installation ==
 
 1. Install and keep Leitvia installed; the child theme uses it as parent theme.
-2. Upload leitvia-child-<version>.zip under Appearance, Themes, Add New, Upload Theme.
-3. Activate Leitvia Child under Appearance, Themes.
+2. In your WordPress admin, go to Appearance, Themes and click "Add New Theme", then "Upload Theme", and choose the zip file of the child theme.
+3. Click "Install Now", then "Activate".
+4. Go to Appearance, Editor to work with the templates, patterns and style variations of Leitvia; files of your own go into this theme.
 
 == Switching themes ==
 
 WordPress keeps the global styles and the templates and template parts edited in the Site Editor per theme. With Leitvia Studio active, a switch from Leitvia to Leitvia Child, or back, copies them to the new theme when it has none of its own yet: global styles with the active token set, edited templates and edited template parts. The originals stay, so switching back finds them unchanged, and nothing the new theme already has is overwritten. Navigation menus belong to no theme and stay as they are. Without Leitvia Studio, WordPress starts the new theme with the files of the themes only.
 
 == Changelog ==
+
+= 1.0.2 =
+* As in Leitvia 1.2.47: the readme has an Installation section, the theme ships languages/leitvia-child.pot for translators, and the license is declared as GPL-2.0-or-later.
 
 = 1.0.1 =
 * The readme names the block starter for blocks of your own and links the developer guide.
