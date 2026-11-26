@@ -3,12 +3,12 @@ Theme Name: Leitvia Child
 Theme URI: https://leitvia.com
 Author: Patrick Schlesinger, CMS ADMINS
 Author URI: https://cms-admins.de
-Description: Starter child theme for Leitvia, for developers, agencies and AI agents. Patterns, templates and template parts you write as files live here and stay in place when Leitvia updates. It inherits every design token, style variation and pattern of Leitvia and adds no CSS of its own.
+Description: Starter child theme for Leitvia, for developers, agencies and AI agents. Patterns, templates and template parts you write as files live here and stay in place when Leitvia updates. It inherits every design token, style variation and pattern of Leitvia; assets/css/site.css restyles existing patterns for one site.
 Template: leitvia
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Version: 1.0.3
+Version: 1.0.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: leitvia-child

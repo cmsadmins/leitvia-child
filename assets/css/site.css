@@ -1,0 +1,18 @@
+/*
+ * Site styles of this child theme: restyle existing patterns and block styles of Leitvia for one site.
+ * The file is loaded only when it holds a rule; as shipped it holds none.
+ *
+ * Rules (readme.txt, section Site styles):
+ * - Colors, sizes and spacing through the role custom properties of Leitvia, for example
+ *   var(--wp--preset--color--accent), var(--wp--preset--font-size--display), var(--wp--preset--spacing--l).
+ *   No hex values, no !important, nothing loaded from another host.
+ * - Select by block style (.is-style-*), pattern class or block class, never by generated ids.
+ * - Motion only inside @media (prefers-reduced-motion: no-preference); keep the focus ring of Leitvia visible.
+ * - A rule every site would want belongs into Leitvia, not here.
+ *
+ * Example: thin column lines behind a full-height hero.
+ *
+ * .is-style-full-height {
+ *	background-image: repeating-linear-gradient(90deg, transparent 0 calc(100% / 12 - 1px), color-mix(in srgb, var(--wp--preset--color--ink) 6%, transparent) calc(100% / 12 - 1px) calc(100% / 12));
+ * }
+ */
